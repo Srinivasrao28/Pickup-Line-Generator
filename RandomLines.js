@@ -40,9 +40,7 @@ function reloadOnce() {
     ranlines.innerHTML = arandom;
     let previouslines = array.unshift(arandom);
 }
-console.log(array);
 newone.addEventListener('click', reloadOnce);
-console.log(array);
 
 function previousLine() {
     if (array.length == 0) {
@@ -54,7 +52,4 @@ function previousLine() {
     }
 }
 previous.addEventListener('click', previousLine);
-
-const images = ['img-1','img-2','img-3','img-4','img-5','img-6','img-7','img-8','img-9','img-10',
-];
 
